@@ -23,6 +23,7 @@
 		49BE0E6A26CACF9F00B7BC1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BE0E6826CACF9F00B7BC1E /* LaunchScreen.storyboard */; };
 		49BE0E7526CACFA000B7BC1E /* Swift_UI_LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BE0E7426CACFA000B7BC1E /* Swift_UI_LearningTests.swift */; };
 		49BE0E8026CACFA000B7BC1E /* Swift_UI_LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BE0E7F26CACFA000B7BC1E /* Swift_UI_LearningUITests.swift */; };
+		49FFBEAF26CC27F6006C3931 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FFBEAE26CC27F6006C3931 /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		49BE0E7B26CACFA000B7BC1E /* Swift UI LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift UI LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BE0E7F26CACFA000B7BC1E /* Swift_UI_LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_UI_LearningUITests.swift; sourceTree = "<group>"; };
 		49BE0E8126CACFA000B7BC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FFBEAE26CC27F6006C3931 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				4995757D26CADFC400327251 /* LandmarkRow.swift */,
 				4995757F26CAE5BE00327251 /* LandmarkList.swift */,
 				4995758126CAE6B000327251 /* LandmarkDetail.swift */,
+				49FFBEAE26CC27F6006C3931 /* FavoriteButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				4995757626CADE5A00327251 /* Landmark.swift in Sources */,
 				4995757E26CADFC400327251 /* LandmarkRow.swift in Sources */,
 				4995758226CAE6B000327251 /* LandmarkDetail.swift in Sources */,
+				49FFBEAF26CC27F6006C3931 /* FavoriteButton.swift in Sources */,
 				4995757826CADF1800327251 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
