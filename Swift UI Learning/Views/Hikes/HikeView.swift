@@ -62,6 +62,10 @@ struct HikeView_Previews: PreviewProvider {
 
 extension AnyTransition {
     static var moveAndFade: AnyTransition {
-        AnyTransition.slide
+        let insertion = AnyTransition.move(edge: .trailing)
+            .combined(with: .opacity)
+        let removal = AnyTransition.scale
+            .combined(with: .opacity)
+        return .asymmetric(insertion: insertion, removal: removal)
     }
 }
